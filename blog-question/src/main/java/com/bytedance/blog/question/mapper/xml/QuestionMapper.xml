@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bytedance.blog.question..mapper.QuestionMapper">
+    <select id="findListByLabelId" resultType="Question">
+        SELECT distinct
+            m1.*
+        FROM
+            zrrd_question m1
+                LEFT JOIN zrrd_question_label m2 ON m1.id = m2.question_id
+        WHERE
+            m1.`status` != 0
+		AND m2.label_id = #{labelId}
+
+        ORDER BY
+            m1.update_date
+    </select>
+
+    <select id="findQuestionAndLabelIdsById" resultMap="QuestionAndLabelIdsMap">
+        select m1.*, m2.label_Id from zrrd_question m1 left join zrrd_question_label m2 on m1.id = m2.question_id
+        where m1.id = #{id}
+    </select>
+
+    <resultMap id="QuestionAndLabelIdsMap" type="Question">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="nick_name" property="nickName"/>
+        <result column="user_image" property="userImage"/>
+        <result column="title" property="title"/>
+        <result column="md_content" property="mdContent"/>
+        <result column="html_content" property="htmlContent"/>
+        <result column="view_count" property="viewCount"/>
+        <result column="thumhup" property="thumhup"/>
+        <result column="reply" property="reply"/>
+        <result column="status" property="status"/>
+        <result column="create_date" property="createDate"/>
+        <result column="update_date" property="updateDate"/>
+        <collection property="labelIds" javaType="list" ofType="string">
+            <id column="label_id" property="id"/>
+        </collection>
+    </resultMap>
+
+    <delete id="deleteQuestionLabel">
+        delete from zrrd_question where question_id = #{questionId}
+    </delete>
+
+    <insert id="saveQuestionLabel">
+        insert into zrrd_question_label(id, question_id, label_id) values
+        <foreach collection="labelIds" item="item" separator=",">
+            ('${@com.baomidou.mybatisplus.core.toolkit.IdWorker@getId()}', #{questionId}, #{item})
+        </foreach>
+    </insert>
+
+    <update id="updateUserInfo">
+        update zrrd_question set nick_name = #{nickName}, user_image = #{userImage}
+        where user_id = #{userId};
+
+        update zrrd_replay set nick_name = #{nickName}, user_image = #{userImage}
+        where user_id = #{userId};
+    </update>
+</mapper>

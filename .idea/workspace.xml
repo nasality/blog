@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a219bd9-50fc-4e0f-8811-4669c36d7857" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mapper" />
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../MVN/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/com/baomidou/mybatisplus/core/toolkit/IdWorker.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Program/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NowsH76lINEP2BuVuGivem6o9v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "D:/Project/JAVAProject/blog/blog-question/src/main/java/com/bytedance/blog",
+    "last_opened_file_path": "D:/Project/JAVAProject/blog/blog-gateway/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "940037db15b2f671d0048661a25897ff"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\JAVAProject\blog\blog-gateway\src\main\resources" />
+      <recent name="D:\Project\JAVAProject\blog\blog-api\src\main\java\com\bytedance\blog\entities" />
+      <recent name="D:\Project\JAVAProject\blog\blog-system\src\main\resources" />
+      <recent name="D:\Project\JAVAProject\blog\blog-question\src\main\java\com\bytedance\blog\question" />
+      <recent name="D:\Project\JAVAProject\blog\blog-api\src\main\java\com\bytedance\blog\article\generator\entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\JAVAProject\blog\blog-question\src\main\java\com\bytedance\blog\question\mapper\xml" />
+      <recent name="D:\Project\JAVAProject\blog\blog-article\src\main\java\com\bytedance\blog\article\mapper\xml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bytedance.blog.entities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.com.bytedance.blog.question.generator.CodeGenerator">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.blog.generator.CodeGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.blog.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bytedance.blog.blog.article.generator.CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.blog.blog.article.generator.CodeGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.blog.blog.article.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bytedance.blog.question.generator.CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.blog.question.generator.CodeGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.blog.question.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.question.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.system.question.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.question.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.question.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-question" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.system.QuestionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-question" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.question.QuestionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-question" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.QuestionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.blog.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytedance.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.bytedance.blog.question.generator.CodeGenerator" />
+        <item itemvalue="Application.com.bytedance.blog.blog.article.generator.CodeGenerator" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a219bd9-50fc-4e0f-8811-4669c36d7857" name="Changes" comment="" />
+      <created>1680343949215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680343949215</updated>
+      <workItem from="1680343951016" duration="9352000" />
+      <workItem from="1681540134215" duration="16646000" />
+      <workItem from="1682076809851" duration="4744000" />
+      <workItem from="1682144348998" duration="13964000" />
+      <workItem from="1683282429937" duration="15785000" />
+      <workItem from="1683358811744" duration="6924000" />
+      <workItem from="1683868291055" duration="4836000" />
+      <workItem from="1684116945833" duration="5000" />
+      <workItem from="1688891638498" duration="12434000" />
+      <workItem from="1688959535312" duration="13000" />
+      <workItem from="1689344260155" duration="24713000" />
+      <workItem from="1689492552609" duration="1497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

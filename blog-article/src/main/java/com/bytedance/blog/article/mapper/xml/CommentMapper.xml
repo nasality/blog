@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bytedance.blog.article.mapper.CommentMapper">
+    <select id="findByArticleId" resultMap="">
+        select *
+        from zrrd_comment
+        where parent_id = -1
+        and article_id = #{articleId}
+        order BY create_date desc
+    </select>
+
+    <select id="findByParentId" resultMap="commentResultMap">
+        select * from zrrd_comment where parent_id = #{id}
+    </select>
+
+    <resultMap id="commentResultMap" type="Comment">
+        <id column="id" property="id"/>
+        <result column="parent_id" property="parentId"/>
+        <result column="user_id" property="userId"/>
+        <result column="nick_name" property="nickName"/>
+        <result column="user_image" property="userImage"/>
+        <result column="article_id" property="articleId"/>
+        <result column="content" property="content"/>
+        <result column="create_date" property="createDate"/>
+        <collection column="id" javaType="list" ofType="Comment" property="children" select="findByArticleId"/>
+    </resultMap>
+</mapper>

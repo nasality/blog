@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bytedance.blog.system.mapper.SysMenuMapper">
+    <select id="findByUserId">
+        select distinct m.*
+            from sys_user u
+            join sys_user_role ur on u.id = ur.user_id
+            join sys_role r on ur.role_id = r.id
+            join sys_role_menu srm on r.id = srm.role_id
+            join sys_menu m on srm.menu_id = m.id
+        where u.id = #{userId}
+        order by m.sort
+    </select>
+</mapper>

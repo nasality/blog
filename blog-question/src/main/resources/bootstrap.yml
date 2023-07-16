@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: question-server #当前服务应用名，要和nacos的配置名前缀一致
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 #注册中心地址
+      config:
+        server-addr: 127.0.0.1:8848 #配置服务地址
+        file-extension: yml
+  profiles:
+    active: dev

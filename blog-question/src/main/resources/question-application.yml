@@ -1,0 +1,53 @@
+#swagger:
+#  title: 博客系统接口文档
+#  description: 博客系统—问答管理接口
+#  exclude-path: /error # 剔除请求
+#
+#server:
+#  port: 8002
+#  servlet:
+#    context-path: /question
+#
+#spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#  application:
+#    name: question-server # 应用名
+#  # 数据源配置
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://127.0.0.1:3306/blog_question?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
+#    #mysql8版本以上驱动包指定新的驱动类
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    #   数据源其他配置, 在 DruidConfig配置类中手动绑定
+#    initialSize: 8
+#    minIdle: 5
+#    maxActive: 20
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: SELECT 1 FROM DUAL
+#
+#mybatis-plus:
+#  type-aliases-package: com.bytedance.blog.entities
+#  # xxxMapper.xml 路径
+#  mapper-locations: classpath*:com/bytedance/blog/question/mapper/**/*.xml
+#
+## 日志级别，会打印sql语句
+#logging:
+#  level:
+#    com.mengxuegu.blog.question.mapper: debug
+#
+##zrrd:
+##  blog:
+##    #  阿里云配置
+##    aliyun:
+##      endpoint: http://oss-cn-shenzhen.aliyuncs.com # OSS 端点，根据自己地域替换
+##      accessKeyId: xxx # 根据自己的配置
+##      accessKeySecret: xxx # 根据自己的配置
+##      bucketName: zrrd # 存储空间名称
+##      # Bucket域名，访问文件时作为URL前缀，注意前面加上 https 和结尾加上 /
+##      bucketDomain: https://zrrd.oss-cn-shenzhen.aliyuncs.com/
