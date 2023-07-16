@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a219bd9-50fc-4e0f-8811-4669c36d7857" name="Changes" comment="" />
+    <list default="true" id="9a219bd9-50fc-4e0f-8811-4669c36d7857" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../MVN/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/com/baomidou/mybatisplus/core/toolkit/IdWorker.class" root0="SKIP_INSPECTION" />
   </component>
@@ -37,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2NowsH76lINEP2BuVuGivem6o9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,12 +58,12 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_directory_selection": "D:/Project/JAVAProject/blog/blog-question/src/main/java/com/bytedance/blog",
-    "last_opened_file_path": "D:/Project/JAVAProject/blog/blog-gateway/src/main/resources",
+    "last_opened_file_path": "D:/Project/JAVAProject/blog",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "940037db15b2f671d0048661a25897ff"
+    "spring.configuration.checksum": "834ee143e5eb309476e79c2ea2d74c96"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -245,10 +249,40 @@
       <workItem from="1688959535312" duration="13000" />
       <workItem from="1689344260155" duration="24713000" />
       <workItem from="1689492552609" duration="1497000" />
+      <workItem from="1689513859319" duration="323000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1689514173648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689514173648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
